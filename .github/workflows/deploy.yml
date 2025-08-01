@@ -39,8 +39,8 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: | 
             cd /home/christian/projects/mpo/
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/mpo:latest
-            docker-compose up -d --no-build
+            docker-compose pull mpo
+            docker-compose up -d --remove-orphans
             docker image prune -a -f
             echo "¡Despliegue completado!"
       - name: Debug SSH
