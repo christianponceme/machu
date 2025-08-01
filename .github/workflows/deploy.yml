@@ -25,16 +25,17 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/mi-app-next:latest # Cambia 'mi-app-next'
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/macchupicchuorigin.com:latest # Cambia 'mi-app-next'
 
-      - name: 4. Desplegar en el VPS
+      - name: 4. Desplegar en el VPS 
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USERNAME }}
+          username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          script: |
-            cd /ruta/a/tu/docker-compose
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/mi-app-next:latest
+          script: | 
+            cd /home/christian/projects/machupicchuorigin.com/
+            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/machupicchuorigin.com:latest
             docker-compose up -d --no-build
+            docker image prune -a -f
             echo "¡Despliegue completado!"
