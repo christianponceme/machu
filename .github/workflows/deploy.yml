@@ -39,17 +39,14 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: | 
             cd /home/christian/projects/mpo/
-            docker-compose pull mpo
+            docker-compose pull ${{ secrets.DOCKERHUB_USERNAME }}/mpo:latest
             docker-compose up -d --remove-orphans
             docker image prune -a -f
-            echo "¡Despliegue completado!"
-      - name: Debug SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
-          debug: true
-          script: |
-           whoami
-           pwd            
+            sleep 10
+            if curl -f -s http://localhost:health > /dev/null 2>&1; then
+              echo "✅ Despliegue exitoso!"
+            else
+              echo "❌ Posible problema en el despliegue"
+              exit 1
+            fi
+            
