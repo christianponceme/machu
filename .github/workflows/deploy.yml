@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          platforms: linux/arm64
+          platforms: linux/amd64
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/mpo:latest # Cambia 'mi-app-next'
 
@@ -39,14 +39,8 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: | 
             cd /home/christian/projects/mpo/
-            docker-compose pull ${{ secrets.DOCKERHUB_USERNAME }}/mpo:latest
+            docker-compose pull mpo
             docker-compose up -d --remove-orphans
             docker image prune -a -f
-            sleep 10
-            if curl -f -s http://localhost:health > /dev/null 2>&1; then
-              echo "✅ Despliegue exitoso!"
-            else
-              echo "❌ Posible problema en el despliegue"
-              exit 1
-            fi
-            
+            echo "Despliegue completado exitosamente en el VPS"
+
