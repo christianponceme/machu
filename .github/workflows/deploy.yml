@@ -39,7 +39,8 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: | 
             cd /home/christian/projects/mpo/
-            docker-compose pull mpo
+            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/mpo:latest
+            docker-compose pull 
             docker-compose up -d --remove-orphans
             docker image prune -a -f
             echo "Despliegue completado exitosamente en el VPS"
