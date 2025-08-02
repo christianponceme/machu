@@ -42,8 +42,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: | 
             cd /home/christian/projects/mpo/
-            echo "arquitectura: $(uname -m)"
-            docker pull --platform linux/arm64 ${{ secrets.DOCKERHUB_USERNAME }}/mpo:latest
+            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/mpo:latest
             docker-compose down || true
             docker-compose up -d --remove-orphans force-recreate
             sleep 15
