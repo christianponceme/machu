@@ -42,7 +42,7 @@ const tours = [
     },
     {
       id: 3,
-      title: "Montaña de 7 Colores (CUSCO)",
+      title: "Montanade7ColoresCUSCO",
       description: "Camina entre gigantes andinos, un circuito de belleza natural y mística en Cusco.",
       duration: "14 horas",
       difficulty: "Moderado", // Cambiado para que el filtro funcione
