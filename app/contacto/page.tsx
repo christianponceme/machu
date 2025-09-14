@@ -292,6 +292,9 @@ _Enviado desde machupicchuorigin.com_`
   }
 
   const handleSelectChange = (name: string, value: string) => {
+    if (name === "countryCode") {
+      value = value.split('-')[0]
+    }
     setFormData({
       ...formData,
       [name]: value,
@@ -372,7 +375,7 @@ _Enviado desde machupicchuorigin.com_`
                         <div className="flex">
                           <Select
                             onValueChange={(value) => handleSelectChange("countryCode", value)}
-                            defaultValue="+51"
+                            defaultValue="+51-95"
                           >
                             <SelectTrigger className="w-32 rounded-r-none border-r-0">
                               <div className="flex items-center space-x-2">
@@ -382,7 +385,7 @@ _Enviado desde machupicchuorigin.com_`
                             </SelectTrigger>
                             <SelectContent className="max-h-60">
                               {countries.map((country, index) => (
-                                <SelectItem key={index} value={country.code}>
+                                <SelectItem key={index} value={`${country.code}-${index}`}>
                                   <div className="flex items-center space-x-2">
                                     <span>{country.flag}</span>
                                     <span className="text-sm">{country.code}</span>
