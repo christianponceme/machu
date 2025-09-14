@@ -97,7 +97,7 @@ const packages = [
     price: "Desde $*",
     rating: 4.8,
     reviews: 198,
-    image: "/ruinas machu.webp?height=300&width=400",
+    image: "/ruinasmachu1.webp?height=300&width=400",
     href: "/paquetes/pack1",
     highlights: ["Machu picchu", "Cusco imperial", "Valle Sagrado"],
   },

@@ -105,7 +105,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.8,
     reviews: 198,
-    image: "/ruinas machu.webp?height=300&width=400",
+    image: "/ruinasmachu.webp?height=300&width=400",
     href: "/paquetes/pack1",
   },
   {
