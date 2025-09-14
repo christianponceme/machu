@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "Norte Peruano y Machupicchu 9 Días 8 Noches",
   subtitle: "La Expedición Definitiva por Todo Perú",
-  heroImage: "/NORTE9dias.png?height=600&width=1200",
+  heroImage: "/NORTE9dias.webp?height=600&width=1200",
   duration: "15 días / 14 noches",
   difficulty: "Aventurero",
   groupSize: "2-12 personas",

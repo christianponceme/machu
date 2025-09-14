@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const packageData = {
   title: "Las Maravillas de Perú",
   subtitle: "15 Días y 14 Noches: La Aventura Definitiva por Perú",
-  heroImage: "/15DIAS.png?height=600&width=1200",
+  heroImage: "/15DIAS.webp?height=600&width=1200",
   duration: "15 días / 14 noches",
   difficulty: "Moderado-Alto",
   groupSize: "2-16 personas",

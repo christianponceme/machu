@@ -21,7 +21,7 @@ const tours = [
       price: "Desde $380",
       rating: 4.8,
       reviews: 24,
-      image: "/Machu_Picchu,_Peru_(2018).jpg", // Usa rutas de imagen reales
+      image: "/Machu_Picchu,_Peru_(2018).webp", // Usa rutas de imagen reales
       highlights: ["Tren panorámico", "Guía experto", "Entrada incluida"],
       departure: "5:00 AM",
       return: "7:00 PM",
@@ -35,7 +35,7 @@ const tours = [
       price: "Desde $68",
       rating: 4.7,
       reviews: 25,
-      image: "/Islas_Ballestas_-_panoramio.jpg",
+      image: "/Islas_Ballestas_-_panoramio.webp",
       highlights: ["Mercado de Pisac", "Fortaleza Ollantaytambo", "Almuerzo incluido"],
       departure: "8:00 AM",
       return: "6:00 PM",
@@ -49,7 +49,7 @@ const tours = [
       price: "Desde $45",
       rating: 4.6,
       reviews: 18,
-      image: "/montana -colores.jpg",
+      image: "/montana -colores.webp",
       highlights: ["Paisajes únicos", "Desayuno incluido", "Transporte privado"],
       departure: "4:30 AM",
       return: "6:30 PM",
@@ -63,7 +63,7 @@ const tours = [
       price: "Desde $38",
       rating: 4.5,
       reviews: 16,
-      image: "/laguna-humantay.jpg",
+      image: "/laguna-humantay.webp",
       highlights: ["Laguna turquesa", "Nevado Salkantay", "Guía especializado"],
       departure: "5:00 AM",
       return: "5:00 PM",
@@ -77,7 +77,7 @@ const tours = [
       price: "Desde $45",
       rating: 4.7,
       reviews: 14,
-      image: "/city-tour.jpg",
+      image: "/city-tour.webp",
       highlights: ["Terrazas de Moray", "Salineras ancestrales", "Pueblo de Chinchero"],
       departure: "9:00 AM",
       return: "3:00 PM",
@@ -91,7 +91,7 @@ const tours = [
       price: "Desde $68",
       rating: 4.8,
       reviews: 29,
-      image: "/cuatrimoto.png",
+      image: "/cuatrimoto.webp",
       highlights: ["Cuatrimoto", "Salineras", "Moray"],
       departure: "1:00 PM",
       return: "6:00 PM",
@@ -105,7 +105,7 @@ const tours = [
       price: "Desde $43",
       rating: 4.8,
       reviews: 41,
-      image: "/siete-lagunas.jpg",
+      image: "/siete-lagunas.webp",
       highlights: ["Lagunas", "Ausangate"],
       departure: "1:00 PM",
       return: "6:00 PM",
@@ -119,7 +119,7 @@ const tours = [
       price: "Desde $154",
       rating: 4.8,
       reviews: 28,
-      image: "/caral.jpg",
+      image: "/caral.webp",
       highlights: ["Caral", "Centro histórico Caral"],
       departure: "1:00 PM",
       return: "6:00 PM",
@@ -133,7 +133,7 @@ const tours = [
       price: "Desde $38",
       rating: 4.8,
       reviews: 29,
-      image: "/lago-titi.jpeg",
+      image: "/lago-titi.webp",
       highlights: ["Qorikancha", "Sacsayhuamán", "Centro histórico"],
       departure: "1:00 PM",
       return: "6:00 PM",
@@ -147,7 +147,7 @@ const tours = [
       price: "Desde $45",
       rating: 4.8,
       reviews: 15,
-      image: "/salva.jpg",
+      image: "/salva.webp",
       highlights: ["Selva", "Selvatico", "Iquitos"],
     },
      {
@@ -159,7 +159,7 @@ const tours = [
       price: "Desde $60",
       rating: 4.8,
       reviews: 10,
-      image: "/reserva.jpg",
+      image: "/reserva.webp",
       highlights: ["Qorikancha", "Sacsayhuamán", "Centro histórico"],
       departure: "1:00 PM",
       return: "6:00 PM",
@@ -173,7 +173,7 @@ const tours = [
       price: "Desde $60",
       rating: 4.8,
       reviews: 22,
-      image: "/colca.jpg",
+      image: "/colca.webp",
       highlights: ["Qorikancha", "Sacsayhuamán", "Centro histórico"],
       departure: "1:00 PM",
       return: "6:00 PM",
@@ -219,7 +219,7 @@ export default function ToursUnDiaPage() {
         {/* Hero Section */}
         <section
           className="relative py-24 bg-cover bg-center"
-          style={{ backgroundImage: "url('/hero-full.png')" }}
+          style={{ backgroundImage: "url('/hero-full.webp')" }}
         >
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">

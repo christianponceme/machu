@@ -77,7 +77,7 @@ export default function GuiaCompletaMachuPicchu2025() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/blog-1-1.png?height=400&width=800"
+                src="/blog-1-1.webp?height=400&width=800"
                 alt="Machu Picchu al amanecer"
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />

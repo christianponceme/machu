@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "CUSCO Camino Inca 3 días",
   subtitle: "La Ruta Clásica en Versión Express",
-  heroImage: "/caminoinca-ai.png?height=600&width=1200",
+  heroImage: "/caminoinca-ai.webp?height=600&width=1200",
   duration: "3 días / 2 noches",
   difficulty: "Desafiante",
   groupSize: "2-12 personas",

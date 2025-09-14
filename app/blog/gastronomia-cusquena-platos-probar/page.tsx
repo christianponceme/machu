@@ -76,7 +76,7 @@ export default function GastronomiaCusquena() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/blog6-comida.png"
+                src="/blog6-comida.webp"
                 alt="Mesa con varios platos típicos de la gastronomía cusqueña"
                 className="w-full h-100 object-cover rounded-lg shadow-lg"
               />
@@ -104,7 +104,7 @@ export default function GastronomiaCusquena() {
               </p>
 
               <div className="my-8">
-                <img src="/cuy.png" alt="Plato de Cuy al Horno servido con papas y ensalada" className="w-full rounded-lg shadow-md" />
+                <img src="/cuy.webp" alt="Plato de Cuy al Horno servido con papas y ensalada" className="w-full rounded-lg shadow-md" />
                 <p className="text-sm text-center mt-2 text-gray-500">El Cuy al Horno, crujiente por fuera y tierno por dentro, es un clásico de las celebraciones andinas.</p>
               </div>
 

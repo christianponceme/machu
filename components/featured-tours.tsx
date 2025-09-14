@@ -16,7 +16,7 @@ const featuredTours = [
     price: "Desde $*",
     rating: 4.9,
     reviews: 245,
-    image: "/blog9-foto.png?height=300&width=400",
+    image: "/blog9-foto.webp?height=300&width=400",
     popular: true,
   },
   {
@@ -29,7 +29,7 @@ const featuredTours = [
     price: "Desde $*",
     rating: 4.8,
     reviews: 189,
-    image: "/blog3-3.png?height=300&width=400",
+    image: "/blog3-3.webp?height=300&width=400",
     popular: false,
   },
   {
@@ -42,7 +42,7 @@ const featuredTours = [
     price: "Desde $*",
     rating: 4.9,
     reviews: 98,
-    image: "/uros.png?height=300&width=400",
+    image: "/uros.webp?height=300&width=400",
     popular: false,
   },
 ]

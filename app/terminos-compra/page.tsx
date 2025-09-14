@@ -98,7 +98,7 @@ const FormularioRegistro = () => {
         {/* Hero Section */}
         <section
           className="relative py-40 bg-cover bg-center"
-          style={{ backgroundImage: "url('/hero-mount.png')" }}
+          style={{ backgroundImage: "url('/hero-mount.webp')" }}
         >
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
@@ -142,7 +142,7 @@ const FormularioRegistro = () => {
                     <div className="text-center">
                       <div className="w-24 h-24 bg-green-800 rounded-full flex items-center justify-center mb-2 mx-auto">
                         <Image
-                           src="/logo-blanco.png"  
+                           src="/logo-blanco.webp"  
                            alt="Icono de Origen de Machupicchu" // Añade una descripción útil
                            width={100}          // Ancho real de tu imagen en píxeles
                            height={60}         // Alto real de tu imagen en píxeles

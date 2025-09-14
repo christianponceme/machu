@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const packageData = {
   title: "Las Maravillas de Cusco",
   subtitle: "5 Días 4 Noches en el Valle Sagrado, Machu Picchu y Montaña de Colores.",
-  heroImage: "/5DIAS.png?height=600&width=1200",
+  heroImage: "/5DIAS.webp?height=600&width=1200",
   duration: "5 días / 4 noches",
   difficulty: "Moderado",
   groupSize: "2-16 personas",

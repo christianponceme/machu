@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "Tour Puno 2 Días",
   subtitle: "Lago Titicaca, Uros y Taquile",
-  heroImage: "/hero-islauros.png?height=600&width=1200",
+  heroImage: "/hero-islauros.webp?height=600&width=1200",
   duration: "2 días / 1 noche",
   difficulty: "Fácil",
   groupSize: "2-15 personas",

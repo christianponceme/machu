@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "IQUITOS Selva Peruana 4 días y 3 noches",
   subtitle: "Inmersión en el Corazón del Amazonas",
-  heroImage: "/iquitos-ai.png?height=600&width=1200",
+  heroImage: "/iquitos-ai.webp?height=600&width=1200",
   duration: "4 días / 3 noches",
   difficulty: "Fácil a Moderado",
   groupSize: "2-12 personas",

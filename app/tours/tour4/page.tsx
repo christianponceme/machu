@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "AREQUIPA Avistamiento Colca 2 días",
   subtitle: "El Vuelo del Cóndor en el Cañón Profundo",
-  heroImage: "/canoncolca-ai.png?height=600&width=1200",
+  heroImage: "/canoncolca-ai.webp?height=600&width=1200",
   duration: "2 días / 1 noche",
   difficulty: "Fácil a Moderado",
   groupSize: "2-15 personas",

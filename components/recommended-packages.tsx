@@ -33,7 +33,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.7,
     reviews: 156,
-    image: "/campos.png?height=300&width=400",
+    image: "/campos.webp?height=300&width=400",
     href: "/paquetes/pack2",
   },
   {
@@ -45,7 +45,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.8,
     reviews: 134,
-    image: "/machupicchu01.jpeg?height=300&width=400",
+    image: "/machupicchu01.webp?height=300&width=400",
     href: "/paquetes/pack3",
   },
   {
@@ -57,7 +57,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.9,
     reviews: 89,
-    image: "/machupichu02.jpeg?height=300&width=400",
+    image: "/machupichu02.webp?height=300&width=400",
     href: "/paquetes/pack0",
   },
   {
@@ -69,7 +69,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 5.0,
     reviews: 89,
-    image: "/selvaperu.jpg?height=300&width=400",
+    image: "/selvaperu.webp?height=300&width=400",
     href: "/paquetes/pack5",
   },
   {
@@ -81,7 +81,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.8,
     reviews: 234,
-    image: "/turismobolivia.jpg?height=300&width=400",
+    image: "/turismobolivia.webp?height=300&width=400",
     href: "/paquetes/pack7",
   },
   {
@@ -93,7 +93,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.9,
     reviews: 156,
-    image: "/salkantay.jpg?height=300&width=400",
+    image: "/salkantay.webp?height=300&width=400",
     href: "/paquetes/pack9",
   },
   {
@@ -105,7 +105,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.8,
     reviews: 198,
-    image: "/ruinas machu.jpeg?height=300&width=400",
+    image: "/ruinas machu.webp?height=300&width=400",
     href: "/paquetes/pack1",
   },
   {
@@ -117,7 +117,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.9,
     reviews: 267,
-    image: "/lunamiel.jpeg?height=300&width=400",
+    image: "/lunamiel.webp?height=300&width=400",
     href: "/paquetes/pack8",
   },
   {
@@ -129,7 +129,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 4.9,
     reviews: 134,
-    image: "/salar.jpeg?height=300&width=400",
+    image: "/salar.webp?height=300&width=400",
     href: "/paquetes/pack4",
   },
   {
@@ -141,7 +141,7 @@ const allPackages: Package[] = [
     price: "Desde $*",
     rating: 5.0,
     reviews: 78,
-    image: "/carrosmedianos.jpeg?height=300&width=400",
+    image: "/carrosmedianos.webp?height=300&width=400",
     href: "/paquetes/pack6",
   },
 ]

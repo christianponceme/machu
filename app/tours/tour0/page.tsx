@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "CUSCO Inca Jungle 3 días y 2 noches",
   subtitle: "Aventura Express: Ciclismo y Trekking",
-  heroImage: "/heromachu.png?height=600&width=1200",
+  heroImage: "/heromachu.webp?height=600&width=1200",
   duration: "3 días / 2 noches",
   difficulty: "Moderado",
   groupSize: "2-12 personas",

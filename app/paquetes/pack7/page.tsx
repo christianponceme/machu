@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const packageData = {
   title: "Las Maravillas de Perú y Bolivia",
   subtitle: "Una Aventura de Dos Naciones: de Machu Picchu al Salar de Uyuni",
-  heroImage: "/15DIASBOLVIA.png?height=600&width=1200",
+  heroImage: "/15DIASBOLVIA.webp?height=600&width=1200",
   duration: "15 días / 14 noches",
   difficulty: "Moderado - Desafiante",
   groupSize: "2-16 personas",

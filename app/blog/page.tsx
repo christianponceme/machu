@@ -39,7 +39,7 @@ const featuredPost = {
   readTime: "15 min",
   views: "2.5K",
   category: "Consejos de Viaje",
-  image: "/blog-1.png?height=400&width=600",
+  image: "/blog-1.webp?height=400&width=600",
   href: "/blog/guia-completa-machu-picchu-2025",
   featured: true,
 }
@@ -54,7 +54,7 @@ const blogPosts = [
     readTime: "12 min",
     views: "1.8K",
     category: "Consejos de Viaje",
-    image: "/blog2.png?height=200&width=300",
+    image: "/blog2.webp?height=200&width=300",
     href: "/blog/mejor-epoca-visitar-machu-picchu",
   },
   {
@@ -66,7 +66,7 @@ const blogPosts = [
     readTime: "10 min",
     views: "1.2K",
     category: "Preparación",
-    image: "/blog3.png?height=200&width=300",
+    image: "/blog3.webp?height=200&width=300",
     href: "/blog/preparacion-fisica-camino-inca",
   },
   {
@@ -78,7 +78,7 @@ const blogPosts = [
     readTime: "11 min",
     views: "2.1K",
     category: "Historia Inca",
-    image: "/blog4-antiguo.png?height=200&width=300",
+    image: "/blog4-antiguo.webp?height=200&width=300",
     href: "/blog/historia-misterios-machu-picchu",
   },
   {
@@ -90,7 +90,7 @@ const blogPosts = [
     readTime: "10 min",
     views: "1.5K",
     category: "Preparación",
-    image: "/blo4.png?height=200&width=300",
+    image: "/blo4.webp?height=200&width=300",
     href: "/blog/que-llevar-mochila-machu-picchu",
   },
   {
@@ -102,7 +102,7 @@ const blogPosts = [
     readTime: "11 min",
     views: "980",
     category: "Experiencias",
-    image: "/blog6.png?height=200&width=300",
+    image: "/blog6.webp?height=200&width=300",
     href: "/blog/gastronomia-cusquena-platos-probar",
   },
   {
@@ -114,7 +114,7 @@ const blogPosts = [
     readTime: "10 min",
     views: "1.7K",
     category: "Consejos de Viaje",
-    image: "/blog-malaltura.png?height=200&width=300",
+    image: "/blog-malaltura.webp?height=200&width=300",
     href: "/blog/mal-altura-cusco-prevencion",
   },
   {
@@ -126,7 +126,7 @@ const blogPosts = [
     readTime: "12 min",
     views: "1.3K",
     category: "Historia Inca",
-    image: "/blog8.png?height=200&width=300",
+    image: "/blog8.webp?height=200&width=300",
     href: "/blog/arquitectura-inca-tecnicas-construccion",
   },
   {
@@ -138,7 +138,7 @@ const blogPosts = [
     readTime: "7 min",
     views: "2.3K",
     category: "Consejos de Viaje",
-    image: "/blog9.png?height=200&width=300",
+    image: "/blog9.webp?height=200&width=300",
     href: "/blog/fotografia-machu-picchu-tips",
   },
 ]
@@ -151,7 +151,7 @@ export default function BlogPage() {
         {/* Hero Section */}
         <section 
          className="relative py-24 bg-cover bg-center"
-         style={{ backgroundImage: "url('/salva.jpg')" }}
+         style={{ backgroundImage: "url('/salva.webp')" }}
         >
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">

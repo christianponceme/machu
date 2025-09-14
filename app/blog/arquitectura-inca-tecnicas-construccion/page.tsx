@@ -76,7 +76,7 @@ export default function ArquitecturaInca() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/blog-construccion.png"
+                src="/blog-construccion.webp"
                 alt="Detalle de un muro inca perfectamente ensamblado en Cusco."
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />
@@ -103,7 +103,7 @@ export default function ArquitecturaInca() {
                 El rasgo más famoso de la arquitectura inca es su cantería. Los incas eran maestros en cortar y pulir enormes bloques de piedra hasta que encajaran con una precisión milimétrica, sin necesidad de usar ningún tipo de argamasa o mortero. Esta técnica, conocida como "sillar", creaba muros tan ajustados que ni una hoja de papel puede insertarse entre las piedras. Un ejemplo icónico es la <strong>Piedra de los Doce Ángulos</strong> en la calle Hatun Rumiyoc de Cusco, una sola piedra que encaja perfectamente con doce otras a su alrededor.
               </p>
               <div className="my-8">
-                <img src="/piedra-12-angulos.jpg" alt="La famosa Piedra de los Doce Ángulos en Cusco" className="w-full rounded-lg shadow-md" />
+                <img src="/piedra-12-angulos.webp" alt="La famosa Piedra de los Doce Ángulos en Cusco" className="w-full rounded-lg shadow-md" />
                 <p className="text-sm text-center mt-2 text-gray-500">Un testimonio de la habilidad inca para trabajar la piedra de forma poligonal.</p>
               </div>
               

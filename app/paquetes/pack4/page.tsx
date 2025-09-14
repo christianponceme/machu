@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "Las Maravillas de Perú y Bolivia",
   subtitle: "20 Días y 19 Noches: La Expedición Definitiva",
-  heroImage: "/20DIAS .png?height=600&width=1200",
+  heroImage: "/20DIAS .webp?height=600&width=1200",
   duration: "20 días / 19 noches",
   difficulty: "Desafiante",
   groupSize: "2-16 personas",

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "Luna de Miel en Perú",
   subtitle: "Un Viaje Inolvidable por Lima, Cusco, Machu Picchu y más",
-  heroImage: "/LUNADEMIEL.png?height=600&width=1200",
+  heroImage: "/LUNADEMIEL.webp?height=600&width=1200",
   duration: "12 días / 11 noches (Itinerario flexible)",
   difficulty: "Suave a Moderado",
   groupSize: "Exclusivo para dos",

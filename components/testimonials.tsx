@@ -11,7 +11,7 @@ const testimonials = [
     rating: 5,
     text: "¡Increíble experiencia! Carlos, nuestro guía, conocía cada detalle de la historia inca. El tour fue perfectamente organizado y las vistas de Machu Picchu al amanecer fueron simplemente mágicas.",
     tour: "Tour Clásico a Machu Picchu",
-    image: "/testimoino0.png?height=80&width=80",
+    image: "/testimoino0.webp?height=80&width=80",
   },
   {
     name: "Marco Rossi",
@@ -19,7 +19,7 @@ const testimonials = [
     rating: 5,
     text: "El Camino Inca fue la aventura de mi vida. El equipo de Machupicchu Origin se encargó de todo, desde el equipamiento hasta la comida deliciosa. Recomiendo 100% esta agencia.",
     tour: "Camino Inca Clásico",
-    image: "/testimonio1.png?height=80&width=80",
+    image: "/testimonio1.webp?height=80&width=80",
   },
   {
     name: "Emma Thompson",
@@ -27,7 +27,7 @@ const testimonials = [
     rating: 5,
     text: "Como fotógrafa, el Tour Puno superó todas mis expectativas. Los guías conocían los mejores spots y horarios para capturar Machu Picchu en todo su esplendor.",
     tour: "Tour Puno",
-    image: "/testimonio2.png?height=80&width=80",
+    image: "/testimonio2.webp?height=80&width=80",
   },
   {
     name: "Hans Mueller",
@@ -35,7 +35,7 @@ const testimonials = [
     rating: 5,
     text: "Servicio excepcional desde el primer contacto. La atención personalizada y el conocimiento local hicieron que nuestro viaje familiar fuera perfecto. Volveremos sin duda.",
     tour: "Tour Privado VIP",
-    image: "/testimonio3.png?height=80&width=80",
+    image: "/testimonio3.webp?height=80&width=80",
   },
 ]
 

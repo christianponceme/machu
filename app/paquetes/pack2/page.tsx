@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const packageData = {
   title: "Las Maravillas de Perú",
   subtitle: "Varios dias recorriendo la Costa y los Andes",
-  heroImage: "/10DIAS.jpg?height=600&width=800",
+  heroImage: "/10DIAS.webp?height=600&width=800",
   duration: "10 días / 9 noches",
   difficulty: "Moderado",
   groupSize: "2-16 personas",

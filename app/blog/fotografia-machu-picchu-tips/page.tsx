@@ -76,7 +76,7 @@ export default function FotografiaMachuPicchu() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/blog9-foto.png"
+                src="/blog9-foto.webp"
                 alt="Fotógrafo capturando la clásica vista de Machu Picchu al amanecer."
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />
@@ -106,7 +106,7 @@ export default function FotografiaMachuPicchu() {
               </p>
 
               <div className="my-8">
-                <img src="/machupicchu -profesional.jpeg" alt="La vista panorámica clásica de Machu Picchu desde la Casa del Guardián." className="w-full rounded-lg shadow-md" />
+                <img src="/machupicchu -profesional.webp" alt="La vista panorámica clásica de Machu Picchu desde la Casa del Guardián." className="w-full rounded-lg shadow-md" />
                 <p className="text-sm text-center mt-2 text-gray-500">La vista icónica requiere el boleto correcto (Circuito 1 o 2).</p>
               </div>
 

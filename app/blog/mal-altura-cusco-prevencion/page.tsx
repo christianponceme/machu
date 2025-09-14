@@ -76,7 +76,7 @@ export default function MalDeAlturaCusco() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/blog-coca.png"
+                src="/blog-coca.webp"
                 alt="Turista bebiendo mate de coca con vista a la ciudad de Cusco"
                 className="w-full h-90 object-cover rounded-lg shadow-lg"
               />

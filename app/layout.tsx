@@ -57,7 +57,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-    generator: 'v0.dev'
+    generator: 'chrisponce.dev'
 }
 
 export default function RootLayout({

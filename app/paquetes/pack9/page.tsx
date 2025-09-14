@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "Salkantay Trek a Machu Picchu",
   subtitle: "La Aventura por Montañas Sagradas hacia la Ciudadela Inca",
-  heroImage: "/SALKANTAY.png?height=600&width=1200",
+  heroImage: "/SALKANTAY.webp?height=600&width=1200",
   duration: "5 días / 4 noches",
   difficulty: "Desafiante",
   groupSize: "2-12 personas",

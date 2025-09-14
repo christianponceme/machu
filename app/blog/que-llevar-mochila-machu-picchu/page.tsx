@@ -76,7 +76,7 @@ export default function QueLlevarMachuPicchu() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/que-llevar.png?height=400&width=800"
+                src="/que-llevar.webp?height=400&width=800"
                 alt="Mochila con implementos esenciales para Machu Picchu"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
               />

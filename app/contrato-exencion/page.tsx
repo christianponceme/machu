@@ -16,7 +16,7 @@ const ContratoExencion = () => {
         {/* Hero Section */}
         <section
           className="relative py-24 bg-cover bg-center"
-          style={{ backgroundImage: "url('/llamas.png')" }}
+          style={{ backgroundImage: "url('/llamas.webp')" }}
         >
           <div className="absolute inset-0 bg-black/60"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">

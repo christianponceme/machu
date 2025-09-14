@@ -29,7 +29,7 @@ const tours = [
     price: "Desde $470",
     rating: 4.9,
     reviews: 245,
-    image: "/Machu_Picchu,_Peru_(2018).jpg?height=300&width=400",
+    image: "/Machu_Picchu,_Peru_(2018).webp?height=300&width=400",
     href: "/tours/tour0",
   },
   {
@@ -41,7 +41,7 @@ const tours = [
     price: "Desde $850",
     rating: 4.8,
     reviews: 189,
-    image: "/camino-inca.jpg?height=300&width=400",
+    image: "/camino-inca.webp?height=300&width=400",
     href: "/tours/tour1",
   },
   {
@@ -53,7 +53,7 @@ const tours = [
     price: "Desde $425",
     rating: 4.7,
     reviews: 156,
-    image: "/nazca.jpeg?height=300&width=400",
+    image: "/nazca.webp?height=300&width=400",
     href: "/tours/tour2",
   },
   {
@@ -65,7 +65,7 @@ const tours = [
     price: "Desde $100",
     rating: 4.9,
     reviews: 98,
-    image: "/uros.jpeg?height=300&width=400",
+    image: "/uros.webp?height=300&width=400",
     href: "/tours/tour3",
   },
   {
@@ -77,7 +77,7 @@ const tours = [
     price: "Desde $120",
     rating: 4.6,
     reviews: 203,
-    image: "/colca.jpeg?height=300&width=400",
+    image: "/colca.webp?height=300&width=400",
     href: "/tours/tour4",
   },
   {
@@ -89,7 +89,7 @@ const tours = [
     price: "Desde $425",
     rating: 4.5,
     reviews: 167,
-    image: "/iquitos.jpeg?height=300&width=400",
+    image: "/iquitos.webp?height=300&width=400",
     href: "/tours/tour5",
   },
 ]

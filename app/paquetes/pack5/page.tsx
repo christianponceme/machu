@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "Selva Peruana y Machupicchu",
   subtitle: "Aventura de los Andes a la Amazonía",
-  heroImage: "/SELVA9DIAS .png?height=600&width=1200",
+  heroImage: "/SELVA9DIAS .webp?height=600&width=1200",
   duration: "9 días / 8 noches",
   difficulty: "Moderado",
   groupSize: "2-10 personas",

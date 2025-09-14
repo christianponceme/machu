@@ -52,19 +52,19 @@ const team = [
   {
     name: "Marjorie Ponce",
     role: "Fundadora y Guía Principal",
-    image: "/CEO.png?height=300&width=300",
+    image: "/CEO.webp?height=300&width=300",
     description: "Egresada guía de turismo con 3 años de experiencia, nacida en Cusco y experta en historia inca.",
   },
   {
     name: "Alejandra Huamán",
     role: "Directora de Operaciones",
-    image: "/worker1.png?height=300&width=300",
+    image: "/worker1.webp?height=300&width=300",
     description: "Especialista en logística de tours con formación en turismo sostenible.",
   },
   {
     name: "Eduardo Flores",
     role: "Director de Marketing",
-    image: "/worker2.png?height=300&width=300",
+    image: "/worker2.webp?height=300&width=300",
     description: "Experto en marketing y experto en ventas.",
  },
 ]
@@ -135,7 +135,7 @@ export default function NosotrosPage() {
 
               <div className="relative">
                 <img
-                  src="/historia.png?height=600&width=500"
+                  src="/historia.webp?height=600&width=500"
                   alt="Historia de Machupicchu Origin"
                   className="rounded-lg shadow-xl w-full h-auto"
                 />

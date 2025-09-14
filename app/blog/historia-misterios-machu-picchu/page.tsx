@@ -75,7 +75,7 @@ export default function HistoriaMisteriosMachuPicchu() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/pachacutek.jpeg?height=400&width=800"
+                src="/pachacutek.webp?height=400&width=800"
                 alt="Vista mística de Machu Picchu entre la niebla"
                 className="w-full h-100 object-cover rounded-lg shadow-lg"
               />

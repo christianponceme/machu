@@ -19,32 +19,32 @@ const toursOptions = [
   {
     name: "CUSCO Inca Jungle 3 días",
     href: "/tours/tour0",
-    image: "/Machu_Picchu,_Peru_(2018).jpg?height=100&width=120",
+    image: "/Machu_Picchu,_Peru_(2018).webp?height=100&width=120",
   },
   {
     name: "CUSCO Camino Inca 3 días",
     href: "/tours/tour1",
-    image: "/camino-inca.jpg?height=80&width=120",
+    image: "/camino-inca.webp?height=80&width=120",
   },
   {
     name: "LIMA Lineas de Nazca y Oasis Huacachina 2 días",
     href: "/tours/tour2",
-    image: "/nazca.jpeg?height=80&width=120",
+    image: "/nazca.webp?height=80&width=120",
   },
   {
     name: "PUNO Lago Titicaca Uros, Taquile y Amantani 2 días",
     href: "/tours/tour3",
-    image: "/uros.jpeg?height=80&width=120",
+    image: "/uros.webp?height=80&width=120",
   },
   {
     name: "AREQUIPA Avistamiento Colca 2 días",
     href: "/tours/tour4",
-    image: "/colca.jpeg?height=80&width=120",
+    image: "/colca.webp?height=80&width=120",
   },
   {
     name: "IQUITOS Selva Peruana 4 días y 3 noches",
     href: "/tours/tour5",
-    image: "/iquitos.jpeg?height=80&width=120",
+    image: "/iquitos.webp?height=80&width=120",
   },
 ]
 
@@ -101,7 +101,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" className="flex items-center space-x-2">
             <Image 
-              src="/logo-machu-picchu2.png"
+              src="/logo-machu-picchu2.webp"
               alt="Machupicchu Origin Logo"
               width={80}
               height={80} />

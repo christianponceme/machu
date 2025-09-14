@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const packageData = {
   title: "Las Maravillas de Cusco",
   subtitle: "7 Días y 6 Noches de Aventura Andina Completa",
-  heroImage: "/7DIASCUSCO.jpg?height=600&width=1200",
+  heroImage: "/7DIASCUSCO.webp?height=600&width=1200",
   duration: "7 días / 6 noches",
   difficulty: "Moderado-Desafiante",
   groupSize: "2-16 personas",

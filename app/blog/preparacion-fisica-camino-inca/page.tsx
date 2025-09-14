@@ -76,7 +76,7 @@ export default function PreparacionFisicaCaminoInca() {
             {/* Featured Image */}
             <div className="mb-12">
               <img
-                src="/blog-preparacion.png?height=400&width=800"
+                src="/blog-preparacion.webp?height=400&width=800"
                 alt="Senderista en el Camino Inca con montañas de fondo"
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />

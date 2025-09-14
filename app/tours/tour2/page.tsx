@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const tourData = {
   title: "LIMA: Líneas de Nazca y Oasis Huacachina",
   subtitle: "Misterio, Desierto y Aventura en 2 Días",
-  heroImage: "/lineasdenazca.jpg?height=600&width=1200",
+  heroImage: "/lineasdenazca.webp?height=600&width=1200",
   duration: "2 días / 1 noche",
   difficulty: "Fácil",
   groupSize: "2-10 personas",
