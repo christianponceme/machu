@@ -42,14 +42,14 @@ const tours = [
     },
     {
       id: 3,
-      title: "montanadecolorescusco",
+      title: "Montaña de 7 Colores (CUSCO)",
       description: "Camina entre gigantes andinos, un circuito de belleza natural y mística en Cusco.",
       duration: "14 horas",
       difficulty: "Moderado", // Cambiado para que el filtro funcione
       price: "Desde $45",
       rating: 4.6,
       reviews: 18,
-      image: "/montana -colores.webp",
+      image: "/montanadecolorescusco.webp",
       highlights: ["Paisajes únicos", "Desayuno incluido", "Transporte privado"],
       departure: "4:30 AM",
       return: "6:30 PM",
