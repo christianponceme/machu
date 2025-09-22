@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import TourLayout from "@/components/tour-layout"
 import RelatedTours from "@/components/related-tours"
 
@@ -93,7 +92,6 @@ export default function TourPuno2DiasPage() {
         <RelatedTours currentTour="tour-puno" />
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import ScrollToTop from "@/components/scroll-to-top"
-import WhatsAppButton from "@/components/whatsapp-button";
+import { Chatbot } from "@/components/chatbot"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -70,7 +70,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ScrollToTop />
         {children}
-        <WhatsAppButton />
+        <Chatbot />
       </body>
     </html>
   )

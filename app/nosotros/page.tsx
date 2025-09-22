@@ -2,7 +2,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Award, Shield, Heart, Globe, Star, CheckCircle } from "lucide-react"
 
@@ -273,8 +272,7 @@ export default function NosotrosPage() {
           </div>
         </section>
       </main>
-      <Footer /> 
-      <WhatsAppButton />
+      <Footer />
      </div>
   )
 }

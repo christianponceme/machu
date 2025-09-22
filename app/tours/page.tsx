@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Clock, Users, Star } from "lucide-react"
@@ -192,7 +191,6 @@ export default function ToursPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

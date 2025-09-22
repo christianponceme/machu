@@ -7,7 +7,6 @@ import Testimonials from "@/components/testimonials"
 import AboutPreview from "@/components/about-preview"
 import CallToAction from "@/components/call-to-action"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 
 export const metadata: Metadata = {
   title: "Machupicchu Origin - Tours y Experiencias Únicas en Machu Picchu",
@@ -45,7 +44,6 @@ export default function HomePage() {
         <CallToAction />
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

@@ -8,7 +8,6 @@ import { Clock, Users, Star, MapPin, Calendar, BarChart3 } from "lucide-react"; 
 import Image from "next/image"; // Importante para las imágenes
 import Header from "@/components/header"; // Asumo que tienes un Header y Footer
 import Footer from "@/components/footer";
-import WhatsAppButton from "@/components/whatsapp-button";
 
 // --- Datos de los tours ---
 const tours = [
@@ -340,7 +339,6 @@ export default function ToursUnDiaPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   );
 }

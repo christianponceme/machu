@@ -2,7 +2,6 @@
 
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -286,7 +285,6 @@ export default function PaquetesClientPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

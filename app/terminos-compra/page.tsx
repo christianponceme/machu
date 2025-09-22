@@ -6,7 +6,6 @@ import { User, MapPin, Phone, Mail, Calendar, FileText, Upload, CheckCircle, Ale
 import Header from "@/components/header";
 import Image from 'next/image';
 import Footer from "@/components/footer";
-import WhatsAppButton from "@/components/whatsapp-button";
 
 const FormularioRegistro = () => {
   const [formData, setFormData] = useState({
@@ -502,7 +501,6 @@ const FormularioRegistro = () => {
         </div>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   );
 };

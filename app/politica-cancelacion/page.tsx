@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { AlertCircle, Clock, RefreshCw, Shield } from "lucide-react"
 
@@ -235,7 +234,6 @@ export default function PoliticaCancelacionPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

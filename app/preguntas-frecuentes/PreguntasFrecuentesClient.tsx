@@ -2,7 +2,6 @@
 
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { HelpCircle, Clock, MapPin, CreditCard, Users, Mountain } from "lucide-react"
 
@@ -188,7 +187,6 @@ export default function PreguntasFrecuentesClient() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

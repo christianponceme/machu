@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata: Metadata = {
@@ -159,7 +158,6 @@ export default function TerminosCondicionesPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

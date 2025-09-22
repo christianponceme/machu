@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import TourLayout from "@/components/tour-layout"
 import RelatedTours from "@/components/related-tours"
 
@@ -101,7 +100,6 @@ export default function IncaJungle3d2nPage() {
         <RelatedTours currentTour="tour2" />
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

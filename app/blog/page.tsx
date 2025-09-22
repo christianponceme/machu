@@ -2,7 +2,6 @@ import type { Metadata } from "next"
 import Header from "@/components/header"
 import { Ready }from "@/components/ready"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -285,7 +284,6 @@ export default function BlogPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

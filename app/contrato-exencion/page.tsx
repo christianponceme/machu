@@ -5,7 +5,6 @@ import React from 'react';
 import { FileText, MapPin, Shield, AlertTriangle, Scale } from 'lucide-react';
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import WhatsAppButton from "@/components/whatsapp-button";
 
 const ContratoExencion = () => {
   return (
@@ -329,7 +328,6 @@ const ContratoExencion = () => {
       </main>
       
       <Footer />
-      <WhatsAppButton />
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import TourLayout from "@/components/tour-layout"
 import RecommendedPackages from "@/components/recommended-packages"
 
@@ -119,7 +118,6 @@ export default function MaravillasDeCusco5D4NPage() {
         <RecommendedPackages currentPackageId={3} />
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Calendar, User, Clock, Eye, ArrowLeft, Heart, Zap, ChevronsUp } from "lucide-react"
 import Link from "next/link"
 import { Ready } from "@/components/ready"
@@ -199,7 +198,6 @@ export default function PreparacionFisicaCaminoInca() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }

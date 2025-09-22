@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, User, Clock, Eye, ArrowLeft, Share2 } from "lucide-react"
@@ -293,7 +292,6 @@ export default function GuiaCompletaMachuPicchu2025() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   )
 }
